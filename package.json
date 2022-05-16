@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "format": "prettier -w src/",
     "lint": "eslint src/*",
     "lint:fix": "eslint src/* --fix",
     "lint:quiet": "eslint src/* --quiet",
