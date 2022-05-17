@@ -21,9 +21,8 @@ export const NextLinkComposed = React.forwardRef<
   HTMLAnchorElement,
   NextLinkComposedProps
 >((props, ref) => {
-  const {
-    to, linkAs, replace, scroll, shallow, prefetch, locale, ...other
-  } = props;
+  const { to, linkAs, replace, scroll, shallow, prefetch, locale, ...other } =
+    props;
 
   return (
     <NextLink
@@ -75,8 +74,9 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>((props, ref) => {
     [activeClassName]: router.pathname === pathname && activeClassName,
   });
 
-  const isExternal = typeof href === 'string'
-    && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
+  const isExternal =
+    typeof href === 'string' &&
+    (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
 
   if (isExternal) {
     if (noLinkStyle) {

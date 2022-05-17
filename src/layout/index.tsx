@@ -6,13 +6,9 @@ import type { ReactNode } from 'react';
 
 // @Interface
 interface LayoutProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => (
-  <Box>
-    {children}
-  </Box>
-);
+const Layout = ({ children }: LayoutProps) => <Box>{children}</Box>;
 
 export default Layout;

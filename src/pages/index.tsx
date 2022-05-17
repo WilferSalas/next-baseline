@@ -16,7 +16,7 @@ const Home: NextPage = () => (
         alignItems: 'center',
       }}
     >
-      Next Playground
+      Next baseline
     </Box>
   </Container>
 );

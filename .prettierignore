@@ -7,14 +7,3 @@ node_modules
 # Ignore artifacts:
 build
 coverage
-
-# Ignore config files
-.eslintrc.json
-.prettierrc.json
-next-env.d.ts
-next.config.js
-package-lock.json
-package.json
-tsconfig.json
-
-README.md
