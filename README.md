@@ -34,12 +34,12 @@ http://localhost:3000
 
 # Create Docker image:
 
+Install Docker on your machine
+- [Docker Desktop](https://docs.docker.com/get-docker/)
+
 Open a console (terminal) and follow this instructions
 
 ```bash
-# Install Docker on your machine
-[Docker Desktop](https://docs.docker.com/get-docker/)
-
 # Build your container
 $ docker build -t nextjs-docker .
 
