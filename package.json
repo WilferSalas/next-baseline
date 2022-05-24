@@ -6,9 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "format": "prettier -w src/",
-    "lint": "eslint",
-    "lint:fix": "eslint src/* --fix",
-    "lint:quiet": "eslint src/* --quiet",
+    "lint":  "eslint \"**/*.{ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "lint:quiet": "eslint \"**/*.{ts,tsx}\" --quiet",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
     "start": "next start -p ${PORT:=3000}"
   },
